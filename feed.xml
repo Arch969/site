@@ -25,7 +25,7 @@
       </set> 
        <set id="s4">
         <name>3D моделирование для детей в Blender</name>
-        <url>https://cyberum.ru/courses/model?utm_source=yandexfeed</url>
+        <url>https://cyberum.ru/courses/blender?utm_source=yandexfeed</url>
       </set> 
       <set id="s5">
         <name>Создания игр. Программирование в Scratch</name>
@@ -40,8 +40,28 @@
         <url>https://cyberum.ru/courses/unity?utm_source=yandexfeed</url>
       </set> 
         <set id="s8">
-        <name>Курсы программирование для детей</name>
+        <name>Онлайн-Курсы программирование для детей</name>
+        <url>https://cyberum.ru/courses?utm_source=yandexfeed</url>
+      </set> 
+         <set id="s9">
+        <name>Онлайн - программирование для детей</name>
         <url>https://cyberum.ru?utm_source=yandexfeed</url>
+      </set> 
+       <set id="s10">
+        <name>Создания игр на Python для детей</name>
+        <url>https://cyberum.ru/courses/python_pygame?utm_source=yandexfeed</url>
+      </set> 
+      <set id="s11">
+        <name>Создания чат-ботов в Telegram на Python для детей</name>
+        <url>https://cyberum.ru/courses/python_chatbot?utm_source=yandexfeed</url>
+      </set> 
+       <set id="s12">
+        <name>3D моделирование для детей в Blockbench</name>
+        <url>https://cyberum.ru/courses/blockbench?utm_source=yandexfeed</url>
+      </set> 
+      <set id="s13">
+        <name>Графический дизайн для детей</name>
+        <url>https://cyberum.ru/?utm_source=yandexfeed_dis</url>
       </set> 
       <!-- Остальные наборы остаются без изменений -->
       <!-- ... -->
@@ -234,8 +254,8 @@
       <!-- Исправленный offer id="of9" -->
       <offer id="of9">
         <name>3D моделирование для детей в Blender</name>
-        <url>https://cyberum.ru/courses/model?utm_source=yandexfeed</url>
-        <categoryId>401</categoryId>
+        <url>https://cyberum.ru/courses/blender?utm_source=yandexfeed</url>
+        <categoryId>411</categoryId>
         <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
         <param name="Дополнительная категория">704</param>
         <set-ids>s4</set-ids>
@@ -413,7 +433,6 @@
         <name>Создание игр в Unity для детей. Программирование на C#</name>
         <url>https://cyberum.ru/courses/unity?utm_source=yandexfeed</url>
         <categoryId>116</categoryId>
-        <categoryId>100</categoryId>
         <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
         <param name="Дополнительная категория">10011</param>
         <set-ids>s7</set-ids>
@@ -466,7 +485,6 @@
       <offer id="of13">
         <name>Курсы программирование для детей</name>
         <url>https://cyberum.ru?utm_source=yandexfeed</url>
-        <categoryId>100</categoryId>
         <categoryId>116</categoryId>
         <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
         <param name="Дополнительная категория">10011</param>
@@ -539,6 +557,224 @@
         <!-- Описание курса -->
         <picture>https://static.tildacdn.com/tild6464-3364-4639-a432-373262366635/logo.svg</picture>
         <description>Киберум — это современная онлайн-школа программирования для детей, специально созданная для детей и подростков. Мы предлагаем широкий спектр востребованных направлений, которые помогут вашим детям освоить мир технологий. Наши преподаватели — опытные практики в сфере IT, которые умеют доступно и понятно объяснять даже самые сложные концепции. Мы тщательно следим за качеством наших образовательных программ и регулярно обновляем их, чтобы они соответствовали актуальным требованиям рынка. Присоединяйтесь к нам на пробный урок и откройте для себя увлекательный мир программирования вместе с нами!</description>
+      </offer>
+      
+      <offer id="of14">
+        <name>Создания игр на Python для детей</name>
+        <url>https://cyberum.ru/courses/python_pygame?utm_source=yandexfeed</url>
+        <categoryId>104</categoryId>
+        <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+        <param name="Дополнительная категория">10011</param>
+        <set-ids>s10</set-ids>
+        <!-- Можно указать несколько наборов через запятую -->
+        <!-- Общая цена курса -->
+        <price>6600</price>
+        <currencyId>RUR</currencyId>
+        <param name="Цена по скидке">4568</param>
+        <param name="Оплата в рассрочку" unit="месяц">6</param>
+        <!-- Рассрочка общей цены на период. Возможные значения для unit - месяц, день -->
+        <!-- Цена за месяц -->
+        <param name="Ежемесячная цена">1650</param>
+        <param name="Ежемесячная цена по скидке">1152</param>
+        <!-- Сроки курсов -->
+        <param name="Продолжительность" unit="месяц">4</param>
+        <!-- Программа обучения -->
+        <param name="План" order="1" unit="Модуль 1: Знакомство с Pygame" hours="24">
+        <![CDATA[ Изучаем самые основы ]]>
+        </param>
+        <param name="План" order="2" unit="Модуль 2: Работа с данными" hours="24">
+        <![CDATA[ Создаем первые проекты-игры на Pygame  ]]>
+        </param>
+        <param name="План" order="3" unit="Модуль 3: Функции" hours="4">
+        <![CDATA[ Создаем продвинутые проекты-игры ]]>
+        </param>
+        <param name="План" order="4" unit="Модуль 4: Классы" hours="4">
+        <![CDATA[ Делаем финальный проект ]]>
+        </param>
+        <!-- Формат и методы обучения -->
+        <param name="Формат обучения">С преподавателем</param>
+        <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+        <param name="Есть вебинары">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Есть видеоуроки">true</param>
+        <param name="Есть текстовые уроки">true</param>
+        <param name="Есть тренажеры">true</param>
+        <param name="Есть сообщество">true</param>
+        <!-- Параметры курса -->
+        <param name="Сложность">Для новичков</param>
+        <!-- Возможные значения - "Для новичков" или "Для опытных" -->
+        <param name="Тип обучения">Курс</param>
+        <!-- Возможные значения - "Курс" или "Профессия" -->
+        <param name="Есть бесплатная часть">true</param>
+        <param name="Результат обучения">Сертификат</param>
+        <!-- Возможные значения - "Сертификат", "Диплом", "Удостоверение" -->
+        <param name="Часы в неделю">4</param>
+        <param name="Классы">1,2,3,4,5,6,7,8,9,10,11</param>
+        <!-- Описание курса -->
+        <picture>https://static.tildacdn.com/tild6464-3364-4639-a432-373262366635/logo.svg</picture>
+        <description> Курс создания игр Python Pygame — предназначен для детей, желающих освоить программирование и создания игр с использованием библиотеки Pygame. Учащиеся узнают, как создавать интерактивные проекты, работать с данными и применять основные принципы объектно-ориентированного программирования (ООП) </description>
+      </offer>
+      
+       <offer id="of15">
+        <name>Создания чат-ботов в Telegram на Python для детей</name>
+        <url>https://cyberum.ru/courses/python_chatbot?utm_source=yandexfeed</url>
+        <categoryId>104</categoryId>
+        <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+        <param name="Дополнительная категория">10011</param>
+        <set-ids>s11</set-ids>
+        <!-- Можно указать несколько наборов через запятую -->
+        <!-- Общая цена курса -->
+        <price>6600</price>
+        <currencyId>RUR</currencyId>
+        <param name="Цена по скидке">4568</param>
+        <param name="Оплата в рассрочку" unit="месяц">6</param>
+        <!-- Рассрочка общей цены на период. Возможные значения для unit - месяц, день -->
+        <!-- Цена за месяц -->
+        <param name="Ежемесячная цена">1650</param>
+        <param name="Ежемесячная цена по скидке">1152</param>
+        <!-- Сроки курсов -->
+        <param name="Продолжительность" unit="месяц">4</param>
+        <!-- Программа обучения -->
+        <param name="План" order="1" unit="Модуль 1: Введение" hours="24">
+        <![CDATA[ Cоздание первого бота ]]>
+        </param>
+        <param name="План" order="2" unit="Модуль 2: Проекты для закрепления" hours="24">
+        <![CDATA[  Проект Викторина ]]>
+        </param>
+        <param name="План" order="3" unit="Модуль 3: Базы данных" hours="4">
+        <![CDATA[ Введение в SQL ]]>
+        </param>
+        <param name="План" order="4" unit="Модуль 4: JSON и API и подключение web-приложений" hours="4">
+        <![CDATA[ Финальный проект ]]>
+        </param>
+        <!-- Формат и методы обучения -->
+        <param name="Формат обучения">С преподавателем</param>
+        <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+        <param name="Есть вебинары">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Есть видеоуроки">true</param>
+        <param name="Есть текстовые уроки">true</param>
+        <param name="Есть тренажеры">true</param>
+        <param name="Есть сообщество">true</param>
+        <!-- Параметры курса -->
+        <param name="Сложность">Для новичков</param>
+        <!-- Возможные значения - "Для новичков" или "Для опытных" -->
+        <param name="Тип обучения">Курс</param>
+        <!-- Возможные значения - "Курс" или "Профессия" -->
+        <param name="Есть бесплатная часть">true</param>
+        <param name="Результат обучения">Сертификат</param>
+        <!-- Возможные значения - "Сертификат", "Диплом", "Удостоверение" -->
+        <param name="Часы в неделю">4</param>
+        <param name="Классы">1,2,3,4,5,6,7,8,9,10,11</param>
+        <!-- Описание курса -->
+        <picture>https://static.tildacdn.com/tild6464-3364-4639-a432-373262366635/logo.svg</picture>
+        <description> Курс "Разработка Telegram-ботов" предназначен для детей, которые хотят научиться создавать интерактивных ботов. Учащиеся освоят основы программирования, работу с базами данных и API, а также научатся разрабатывать и деплоить web-приложения. </description>
+      </offer>
+      
+      <offer id="of16">
+        <name>3D моделирование для детей в Blockbench</name>
+        <url>https://cyberum.ru/courses/Blockbench?utm_source=yandexfeed</url>
+        <categoryId>411</categoryId>
+        <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+        <param name="Дополнительная категория">704</param>
+        <set-ids>s12</set-ids>
+        <!-- Можно указать несколько наборов через запятую -->
+        <!-- Общая цена курса -->
+        <price>6600</price>
+        <currencyId>RUR</currencyId>
+        <param name="Цена по скидке">4568</param>
+        <param name="Оплата в рассрочку" unit="месяц">6</param>
+        <!-- Рассрочка общей цены на период. Возможные значения для unit - месяц, день -->
+        <!-- Цена за месяц -->
+        <param name="Ежемесячная цена">1650</param>
+        <param name="Ежемесячная цена по скидке">1152</param>
+        <!-- Сроки курсов -->
+        <param name="Продолжительность" unit="месяц">4</param>
+        <!-- Программа обучения -->
+        <param name="План" order="1" unit="Модуль 1: Введение. Базовые инструменты." hours="8">
+        <![CDATA[ Изучаем  основы ]]>
+        </param>
+        <param name="План" order="2" unit="Модуль 2: Создание полноценных моделей." hours="24">
+        <![CDATA[ Cоздаем модельки  ]]>
+        </param>
+        <param name="План" order="3" unit="Модуль 3: Финальный проект" hours="4">
+        <![CDATA[ Создаем продвинутые модельки ]]>
+        </param>
+        <!-- Формат и методы обучения -->
+        <param name="Формат обучения">С преподавателем</param>
+        <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+        <param name="Есть вебинары">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Есть видеоуроки">true</param>
+        <param name="Есть текстовые уроки">true</param>
+        <param name="Есть тренажеры">true</param>
+        <param name="Есть сообщество">true</param>
+        <!-- Параметры курса -->
+        <param name="Сложность">Для новичков</param>
+        <!-- Возможные значения - "Для новичков" или "Для опытных" -->
+        <param name="Тип обучения">Курс</param>
+        <!-- Возможные значения - "Курс" или "Профессия" -->
+        <param name="Есть бесплатная часть">true</param>
+        <param name="Результат обучения">Сертификат</param>
+        <!-- Возможные значения - "Сертификат", "Диплом", "Удостоверение" -->
+        <param name="Часы в неделю">4</param>
+        <param name="Классы">1,2,3,4,5,6,7,8,9,10,11</param>
+        <!-- Описание курса -->
+        <picture>https://static.tildacdn.com/tild6464-3364-4639-a432-373262366635/logo.svg</picture>
+        <description>На курсе по Blockbench ученик научится создавать и редактировать 3D модели для игр, особенно в стиле Minecraft. Освоит моделировать различные объекты, добавлять текстуры и анимации. Курс также поможет развить креативное мышление, знакомя с основами дизайна и анимации.</description>
+      </offer>
+      
+       <offer id="of17">
+        <name>Графический дизайн для детей</name>
+        <url>https://cyberum.ru/?utm_source=yandexfeed_dis</url>
+        <categoryId>401</categoryId>
+        <!-- Обязательная ссылка на категорию. Можно указать до 2х значений категории -->
+        <param name="Дополнительная категория">704</param>
+        <set-ids>s13</set-ids>
+        <!-- Можно указать несколько наборов через запятую -->
+        <!-- Общая цена курса -->
+        <price>6600</price>
+        <currencyId>RUR</currencyId>
+        <param name="Цена по скидке">4568</param>
+        <param name="Оплата в рассрочку" unit="месяц">6</param>
+        <!-- Рассрочка общей цены на период. Возможные значения для unit - месяц, день -->
+        <!-- Цена за месяц -->
+        <param name="Ежемесячная цена">1650</param>
+        <param name="Ежемесячная цена по скидке">1152</param>
+        <!-- Сроки курсов -->
+        <param name="Продолжительность" unit="месяц">4</param>
+        <!-- Программа обучения -->
+        <param name="План" order="1" unit="Модуль 1: Figma." hours="8">
+        <![CDATA[ Изучаем  основы Figma ]]>
+        </param>
+        <param name="План" order="2" unit="Модуль 2: Adobe Photoshop." hours="24">
+        <![CDATA[ Изучаем  основы Adobe Photoshop  ]]>
+        </param>
+        <param name="План" order="3" unit="Модуль 3: Corel " hours="4">
+        <![CDATA[ Изучаем  основы Adobe Corel]]>
+        </param>
+        <!-- Формат и методы обучения -->
+        <param name="Формат обучения">С преподавателем</param>
+        <!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
+        <param name="Есть вебинары">false</param>
+        <param name="Есть домашние работы">true</param>
+        <param name="Есть видеоуроки">true</param>
+        <param name="Есть текстовые уроки">true</param>
+        <param name="Есть тренажеры">true</param>
+        <param name="Есть сообщество">true</param>
+        <!-- Параметры курса -->
+        <param name="Сложность">Для новичков</param>
+        <!-- Возможные значения - "Для новичков" или "Для опытных" -->
+        <param name="Тип обучения">Курс</param>
+        <!-- Возможные значения - "Курс" или "Профессия" -->
+        <param name="Есть бесплатная часть">true</param>
+        <param name="Результат обучения">Сертификат</param>
+        <!-- Возможные значения - "Сертификат", "Диплом", "Удостоверение" -->
+        <param name="Часы в неделю">4</param>
+        <param name="Классы">1,2,3,4,5,6,7,8,9,10,11</param>
+        <!-- Описание курса -->
+        <picture>https://static.tildacdn.com/tild6464-3364-4639-a432-373262366635/logo.svg</picture>
+        <description>На курсе по Blockbench ученик научится создавать и редактировать 3D модели для игр, особенно в стиле Minecraft. Освоит моделировать различные объекты, добавлять текстуры и анимации. Курс также поможет развить креативное мышление, знакомя с основами дизайна и анимации.</description>
       </offer>
       <!-- Исправленный offer id="of10" -->
       
